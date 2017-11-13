@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wordcount</string>
+    <string name="instruction">Enter words:</string>
+    <string name="inputWords">Enter Words</string>
+    <string name="submit_button">Submit</string>
+    <string name="word_count">0</string>
+</resources>
