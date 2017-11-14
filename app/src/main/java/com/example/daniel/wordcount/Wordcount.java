@@ -16,10 +16,4 @@ public class Wordcount {
         String[] words = input.split(" ");
         return words.length;
     }
-
-//    String[] words = input.split(" ");
-
-//    public int wordCount(String words) {
-//
-//    }
 }
