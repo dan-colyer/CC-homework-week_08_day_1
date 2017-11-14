@@ -26,4 +26,16 @@ public class WordcountTest {
         assertEquals(4, actual2);
 
     }
+
+    // Test 2
+    @Test
+    public void testShowWordFrequency() {
+        wordcount = new Wordcount();
+
+        String input1 = "One One Two Three Three Three";
+        String actual = wordcount.showWordFrequency(input1);
+        assertEquals("{One=2, Two=1, Three=3}", actual);
+    }
 }
+
+
