@@ -36,3 +36,4 @@ public class MainActivity extends AppCompatActivity {
 
         this.instruction.setText(output.toString());
     }
+}

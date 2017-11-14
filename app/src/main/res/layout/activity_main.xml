@@ -26,13 +26,12 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="Input Sentence"
         android:inputType="textPersonName"
-        android:text="@string/inputWords"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/instruction"
-        tools:text="@string/inputWords" />
+        app:layout_constraintTop_toBottomOf="@+id/instruction" />
 
     <Button
         android:id="@+id/submit_button"
